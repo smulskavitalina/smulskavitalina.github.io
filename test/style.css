@@ -1,0 +1,23 @@
+body{
+margin: 0;
+}
+#div1{
+	background-color: #9e5a00;
+	height: 100px;
+}
+.div2{
+	display: inline-block;	
+	width: 100px;
+}
+.div2:nth-child(1){
+	height: 400px;
+	background-color: rgb(227, 163, 73);
+}
+.div2:nth-child(2){
+	height: 450px;
+	background-color: rgb(184, 122, 37);
+}
+.div2:nth-child(3){
+	height: 500px;
+	background-color: rgb(99, 60, 4);
+}
